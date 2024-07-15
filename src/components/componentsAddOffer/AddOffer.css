@@ -1,0 +1,51 @@
+.add-offer-page {
+    padding: 20px;
+  }
+  
+  .add-offer-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-offer-page input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .add-offer-page button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .offer-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .offer-table th, .offer-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .offer-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .offer-table td button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

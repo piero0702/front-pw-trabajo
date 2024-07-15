@@ -1,0 +1,89 @@
+/* TopBar.css */
+
+.top-bar {
+  background-color: #ffe6e6;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align children with space between */
+}
+
+.logo {
+  display: flex; /* Align logo and text in a row */
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 36px;
+  color: #333;
+  margin: 0;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  margin-right: 10px; /* Space between input and button */
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.cerrar button {
+  background-color: black;  
+  color: white; 
+  border-radius: 5px; 
+  padding: 10px 20px;  
+  display: inline-block;  
+  text-align: center;  
+  text-decoration: none;  
+  font-size: 14px; 
+  cursor: pointer;
+  margin-left: -60px;  
+}
+
+
+.dashboard a{
+  background-color: black;  
+  color: white;  
+  border-radius: 5px; 
+  padding: 12px 20px;  
+  display: inline-block;  
+  text-align: center;  
+  text-decoration: none;  
+  font-size: 14px;  
+  cursor: pointer;  
+  margin-right: -90px;
+}
+
+.infoLogin{
+  background-color: black;  
+  color: white;  
+  border-radius: 5px; 
+  padding: 10px 20px;  
+  display: inline-block;  
+  text-align: center;  
+  text-decoration: none;  
+  font-size: 14px;  
+  cursor: pointer;  
+}

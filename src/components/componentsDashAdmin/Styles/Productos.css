@@ -1,0 +1,112 @@
+/* src/Componentes/Styles/Productos.css */
+
+.productos-container {
+  padding: 20px;
+}
+
+.Cabecita1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Cabecita1 div:first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.agregacion-prod {
+  display: flex;
+  align-items: center;
+}
+
+.agregar-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1; /* Asegúrate de que el botón esté por encima de otros elementos */
+}
+
+.agregar-btn:hover {
+  background-color: #218838;
+}
+
+.bu {
+  margin-bottom: 20px;
+}
+
+.tab {
+  width: 100%;
+  max-width: calc(100% - 130px); /* Ajusta el tamaño máximo de la tabla */
+  max-height: 400px; /* Establece la altura máxima del contenedor de la tabla */
+  overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+  overflow-y: auto; /* Permite el desplazamiento vertical */
+  scrollbar-width: none; /* Para Firefox */
+  -ms-overflow-style: none;  /* Para IE y Edge */
+  padding-right: 3%;
+}
+
+.tab::-webkit-scrollbar { 
+  display: none;  /* Para Chrome, Safari y Opera */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #111112;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+}
+
+.pagination span {
+  font-size: 16px;
+  margin: 0 10px;
+}

@@ -1,0 +1,85 @@
+.add-series-page {
+    padding: 20px;
+  }
+  
+  .add-series-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-series-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-series-form div {
+    margin-bottom: 20px;
+  }
+  
+  .add-series-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-series-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-list {
+    margin-bottom: 20px;
+  }
+  
+  .product-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-list ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .product-list ul li button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .product-list input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-list button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-series-form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: flex-end;
+  }
+  

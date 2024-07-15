@@ -1,0 +1,9 @@
+[
+    { "id": 1425, "nombre": "Luis", "descripcion": "45", "fechaCreacion": "11/02/2022", "nroProductos": 12 },
+    { "id": 2345, "nombre": "Pedro", "descripcion": "20", "fechaCreacion": "01/05/2021", "nroProductos": 20 },
+    { "id": 3456, "nombre": "Miguel", "descripcion": "35.", "fechaCreacion": "15/07/2019", "nroProductos": 25 },
+
+    { "id": 2345, "nombre": "Fernan", "descripcion": "27", "fechaCreacion": "01/05/2021", "nroProductos": 20 },
+    { "id": 3456, "nombre": "Mauro", "descripcion": "62", "fechaCreacion": "15/07/2019", "nroProductos": 25 }
+]
+  
